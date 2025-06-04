@@ -6,8 +6,8 @@
 BufferedSerial pc(USBTX, USBRX, 9600);                                           // Initialise la communication série USB avec le PC à 9600 bauds
 // Envoie les messages dans le terminal
 
-const char *ssid = "TON_SSID";                                                   // ssid = nom du réseau WiFi
-const char *password = "TON_MOT_DE_PASSE";                                       // password = mot de passe associé au WiFi
+const char *ssid = "BoxWifi";                                                   // ssid = nom du réseau WiFi
+const char *password = "MOT_DE_PASSE";                                       // password = mot de passe associé au WiFi
 
 // Fonction utilitaire pour centraliser la vérification des erreurs, sinon doit recopier 5 fois le meme code
 void check_error(int ret, const char* message) 
