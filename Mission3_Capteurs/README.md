@@ -20,3 +20,11 @@ ________________________________________________________________________________
 Résultat attendu
 
 Le terminal affiche la température (°C), l’humidité relative (%) et la pression (hPa) à intervalles réguliers.
+________________________________________________________________________________________________________________________________________________________________________
+Explication du fonctionement des fichiers "mbed_app.json"
+
+target_overrides = section obligatoire dans le fichier.
+Elle permet de modifier des paramètres spécifiques pour un ou plusieurs types de cartes cibles.
+"*" = "joker" (généralisation une regle sans sans nomer une cible spécifique)
+Définit la vitesse de communication série entre la carte et l'ordinateur. =9600 bauds, qui est une vitesse classique et stable pour les terminaux
+Permet de convertir les caractères de saut de ligne (\n) en un format compréhensible pour les terminaux, donc chaque ligne s’affiche correctement sur le terminal 
