@@ -1,8 +1,5 @@
 {
   "target_overrides":                                       
-//Elle permet de modifier des paramètres spécifiques pour un ou plusieurs types de cartes cibles.
-
-
   {
     "*":                                                    
     {
