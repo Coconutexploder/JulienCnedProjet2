@@ -1,13 +1,13 @@
 {
-  "target_overrides":                                       //target_overrides = section obligatoire dans le fichier.
+  "target_overrides":                                       
 //Elle permet de modifier des paramètres spécifiques pour un ou plusieurs types de cartes cibles.
 
 
   {
-    "*":                                                    //"joker" (généralisation une regle sans sans nomer une cible spécifique)
+    "*":                                                    
     {
-      "platform.stdio-baud-rate": 9600,                     //Définit la vitesse de communication série entre la carte et l'ordinateur. =9600 bauds, qui est une vitesse classique et stable pour les terminaux
-      "platform.stdio-convert-newlines": true               //Permet de convertir les caractères de saut de ligne (\n) en un format compréhensible pour les terminaux, donc chaque ligne s’affiche correctement sur le terminal 
+      "platform.stdio-baud-rate": 9600,                     
+      "platform.stdio-convert-newlines": true               
     }
   }
 }
